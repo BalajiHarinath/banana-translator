@@ -33,6 +33,7 @@ textarea{
 #btn-translate{
     background-color: yellow ;
     background-origin: none;
+    border-radius: 1rem;
     width: 50%;
     height: 7vh;
     font-weight: bold;
