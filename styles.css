@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat&family=Open+Sans&display=swap');
+
+body{
+    text-align: center;
+    margin: 0rem 0rem;
+    font-family: 'Montserrat','sans-serif';  
+    background-color: white;
+    
+}
+
+.header{
+    height:5rem;
+    background-color: yellow;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+textarea{
+    display: block;
+    height: 15vh;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat','sans-serif';
+    font-size: large;
+}
+
+#btn-translate{
+    background-color: yellow ;
+    background-origin: none;
+    width: 50%;
+    height: 7vh;
+    font-weight: bold;
+    font-family: 'Montserrat','sans-serif';
+    border: none;
+}
+
+#output-text{
+    height: 15vh;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 0.5rem;
+
+}
+
+.text-body{
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.footer{
+  height: 12rem;
+  width: 100%;
+  background-color: yellow;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 4rem;
+  display: block;
+}
+
+.footer h2{
+    padding-top: 1rem;
+}
+.footer p{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    
+}
